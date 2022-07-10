@@ -15,7 +15,6 @@ body{
     height: 40em;
     width: 65em;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.432) ;
     background-color: white;
 }
 
@@ -112,7 +111,6 @@ button:hover{
         height: 60em;
         width: 30em;
         border-radius: 20px;
-        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.432) ;
         background-color: white;
         margin-bottom: 2em;
     }
