@@ -97,7 +97,7 @@ button:hover{
 
 
 
-/* Responsiveness */
+/* Responsive Styling still using grid */
 
 @media only screen and (max-width:600px){
     .container1{
