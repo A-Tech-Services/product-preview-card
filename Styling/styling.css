@@ -67,6 +67,18 @@ body{
     line-height: 1.6;
 }
 
+#lefthand #price{
+    font-family: 'Fraunces', serif;
+}
+
+#lefthand #oldprice{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
 button{
     font-family: 'Montserrat', sans-serif;
 }
