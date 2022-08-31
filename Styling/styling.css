@@ -13,6 +13,7 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
 }
 
 .container{
@@ -24,9 +25,9 @@ body{
 
 .d-flex{
     margin: auto;
-    width: 60%;
+    width: 50%;
     height: auto;
-    border: 1px solid black;
+    border-radius: 10px;
 }
 
 #imgbg{
@@ -34,12 +35,14 @@ body{
     background-image: url("/image/image-product-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px 0 0 10px;
 }
 
 
 #lefthand{
     width: 50%;
     padding: 20px;
+    border-radius: 0 10px 10px 0;
 }
 
 #lefthand #smallhead{
@@ -52,7 +55,20 @@ body{
 
 #lefthand #bighead{
     font-family: 'Fraunces', serif;
-    width: 7em;
+    max-width: 7em;
+}
+
+#lefthand #note{
+    max-width: 20em;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -62,16 +78,41 @@ body{
 
 
 @media (max-width: 767px){
+
+    .d-flex{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
     #imgbg{
         width: 100%;
-        height: 20vh;
+        height: 35vh;
         background-image: url("/image/image-product-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 10px 10px 0 0;
     }
 
     #lefthand{
         width: 100%;
-        padding: 15px;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
     }
+
+    #lefthand #bighead{
+        font-family: 'Fraunces', serif;
+        max-width: 9em;
+    }
+
+    #lefthand #note{
+        max-width: 25.5em;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+    
 }
